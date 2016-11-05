@@ -1,2 +1,2 @@
-[edwardkenfox.com](edwardkenfox.com)
+[edwardkenfox.com](http://edwardkenfox.com)
 
