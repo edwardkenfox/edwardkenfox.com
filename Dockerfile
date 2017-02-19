@@ -46,7 +46,6 @@ COPY /src /app/
 RUN cd /app && \
     hugo
 
-
 #
 # run h2o
 #
