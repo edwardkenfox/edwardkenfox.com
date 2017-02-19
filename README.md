@@ -3,6 +3,8 @@ This is a repository that maintains the website [edwardkenfox.com](http://edward
 ### Build
 
 ```
+# inside edwardkenfox.com
+git submodule update --init
 docker build -t edwardkenfox.com .
 ```
 
