@@ -49,5 +49,5 @@ RUN cd /app && \
 #
 # run h2o
 #
-EXPOSE 8080
+EXPOSE 80 443
 CMD ./h2o -c /h2o/h2o.conf
