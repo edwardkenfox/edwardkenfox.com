@@ -44,7 +44,8 @@ COPY h2o.conf /h2o/h2o.conf
 #
 COPY /src /app/
 RUN cd /app && \
-    hugo --theme=cocoa
+    hugo
+
 
 #
 # run h2o

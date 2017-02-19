@@ -9,15 +9,15 @@ docker build -t edwardkenfox.com .
 ### Build static pages
 
 ```
-cd src
-hugo --theme=cocoa
+# inside src
+hugo
 ```
 
 ### Add new page
 
 ```
-cd src
-hugo new fixed/index.html
+# inside src
+hugo new fixed/index.md
 ```
 
 ### Run
