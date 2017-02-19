@@ -4,6 +4,9 @@ This is a repository that maintains the website [edwardkenfox.com](http://edward
 
 ```
 git submodule update --init
+
+# manually upload SSL certificate & key before building image
+
 docker build -t edwardkenfox.com .
 ```
 
@@ -36,6 +39,6 @@ docker run -p 80:80 -p 443:443 edwardkenfox.com
 
 ## TODO
 
-- [ ] HTTPS
-- [ ] HTTP/2
+- [x] HTTPS
+- [x] HTTP/2
 - [ ] deploy to ECS
