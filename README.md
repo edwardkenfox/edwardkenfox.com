@@ -36,4 +36,6 @@ docker run -p 80:80 edwardkenfox.com
 
 ## TODO
 
+- [ ] HTTPS
+- [ ] HTTP/2
 - [ ] deploy to ECS
