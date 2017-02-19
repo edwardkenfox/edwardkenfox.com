@@ -1,5 +1,16 @@
+builddrafts = false
 languageCode = "en-us"
 title = "edwardkenfox.com"
-# baseurl = "http://edwardkenfox.com"
-baseurl = "http://localhost:8080"
+baseurl = "http://edwardkenfox.com"
 theme="cocoa"
+googleAnalytics = "UA-42113774-1"
+
+[permalinks]
+  fixed = ":title/"
+  blog  = "blog/:slug/"
+
+[params]
+  author = "Edward Fox"
+  email = "edwardkenfox@gmail.com"
+  github = "//github.com/edwardkenfox"
+  twitter = "//twitter.com/edwardkenfox"
