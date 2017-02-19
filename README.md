@@ -23,7 +23,7 @@ hugo new fixed/index.html
 ### Run
 
 ```
-docker run -p 8080:8080 edwardkenfox.com
+docker run -p 80:80 edwardkenfox.com
 ```
 
 ## TODO
