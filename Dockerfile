@@ -38,6 +38,8 @@ RUN git submodule update --init --recursive && \
     chmod 777 /h2o && \
     mkdir /app
 COPY h2o.conf /h2o/h2o.conf
+COPY STAR_edwardkenfox_com.crt /h2o/STAR_edwardkenfox_com.crt
+COPY edwardkenfoxcom.key /h2o/edwardkenfoxcom.key
 
 #
 # build static files with hugo
