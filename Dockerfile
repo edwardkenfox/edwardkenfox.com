@@ -35,7 +35,8 @@ WORKDIR /h2o
 RUN git submodule update --init --recursive && \
     cmake . && \
     make h2o && \
-    chmod 777 /h2o && mkdir /app
+    chmod 777 /h2o && \
+    mkdir /app
 COPY h2o.conf /h2o/h2o.conf
 
 #
