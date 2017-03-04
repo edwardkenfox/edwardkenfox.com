@@ -10,13 +10,13 @@ Edward Fox
 
 #### Job
 
-Web Developer at Repro Inc.
+Web Developer
 
-#### Tech stack
+#### Tech stacks
 
 Ruby, Rails, JavaScript, Vue.js, C++
 
-#### Interests
+#### Passion
 
-- Advanced web technologies such as HTTP/2, QUIC, WebAssembly & etc.
+- Advanced web technologies such as Web APIs, HTTP/2, QUIC, WebAssembly & etc.
 - Web security and performance
