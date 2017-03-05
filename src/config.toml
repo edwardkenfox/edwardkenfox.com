@@ -4,10 +4,13 @@ title = "edwardkenfox.com"
 baseurl = "https://edwardkenfox.com"
 theme="cocoa"
 googleAnalytics = "UA-42113774-1"
+PygmentsCodeFences = true
+pygmentsstyle = "autumn"
 
 [permalinks]
   fixed = ":title/"
   blog  = "blog/:slug/"
+  playground = "playground/:slug/"
 
 [params]
   author = "Edward Fox"
