@@ -24,7 +24,7 @@ title = "DOM Based XSS"
 
 ## Code
 
-```html
+~~~html
 <p>Open <a href="//edwardkenfox.com/playground/dom-based-xss/index.html?id=1%27);eval(String.fromCharCode(97,108,101,114,116,40,39,98,111,111,33,39,41,59))//">this link</a> to show an alert via DOM Based XSS</p>
 
 
@@ -40,4 +40,4 @@ title = "DOM Based XSS"
 
   eval('getId(' + id.toString() + ')');
 </script>
-```
+~~~

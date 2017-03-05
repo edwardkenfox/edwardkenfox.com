@@ -4,8 +4,6 @@ title = "edwardkenfox.com"
 baseurl = "https://edwardkenfox.com"
 theme="cocoa"
 googleAnalytics = "UA-42113774-1"
-PygmentsCodeFences = true
-pygmentsstyle = "autumn"
 
 [permalinks]
   fixed = ":title/"
@@ -17,3 +15,4 @@ pygmentsstyle = "autumn"
   email = "edwardkenfox@gmail.com"
   github = "//github.com/edwardkenfox"
   twitter = "//twitter.com/edwardkenfox"
+  highlightjs = true
