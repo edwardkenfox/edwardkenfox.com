@@ -7,7 +7,7 @@ title = "Immediate autofocus"
 ## Demo
 
 <p id="original">Original content</p>
-<input autofocus onfocus="setTimeout(function() { document.getElementById('original').innerHTML = `Orignial content has been replaced!` }, 1000)" style="margin-left: -9999px;">
+<input autofocus onfocus="setTimeout(function() { document.getElementById('original').innerHTML = `Original content has been replaced!` }, 1000)" style="margin-left: -9999px;">
 
 ## Code
 
@@ -20,7 +20,7 @@ title = "Immediate autofocus"
   </head>
   <body>
     <p id="original">Original content</p>
-    <input autofocus onfocus="setTimeout(function() { document.getElementById('original').innerHTML = `Orignial content has been replaced!` }, 1000)" style="margin-left: -9999px;">
+    <input autofocus onfocus="setTimeout(function() { document.getElementById('original').innerHTML = `Original content has been replaced!` }, 1000)" style="margin-left: -9999px;">
   </body>
 </html>
 ~~~
