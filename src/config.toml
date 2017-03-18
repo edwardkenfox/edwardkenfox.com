@@ -4,6 +4,7 @@ title = "edwardkenfox.com"
 baseurl = "https://edwardkenfox.com"
 theme="cocoa"
 googleAnalytics = "UA-42113774-1"
+disqusshortname = "edwadkenfox-com"
 
 [permalinks]
   fixed = ":title/"
