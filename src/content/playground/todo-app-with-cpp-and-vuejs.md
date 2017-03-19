@@ -6,7 +6,7 @@ slug = "todo-app-with-cpp-and-vuejs"
 
 +++
 
-The below minimal ToDo app is created using C++ ToDo class compiled to JavaScript with emscripten and then bound to Vue.js as a component. Each item of the ToDo list is a ToDo instance written in C++, so it contains full features of C++ class such as type information of the member attributes as well as function arguments. The original C++ class was a file of 45 lines, but the compiled JavaScript file became +400KB. The ToDo class has full functionality of a C++ class such as type information of the member attributes as well as function parameters, which can be really useful even in the JavaScript world. However, this is still highly experimental concerning the bloated file size as well as the critical bug/behavior that the ToDo Vue component's properties not being reactive.
+The below minimal ToDo app is created using C++ ToDo class compiled to JavaScript with emscripten and then bound to Vue.js as a component. The original C++ class was a file of 45 lines, but the compiled JavaScript file became +400KB. Each item of the ToDo list is a ToDo class instance written in C++ and has full functionality of a C++ classes such as type information of the member attributes as well as function parameters, which can be really useful even in the JavaScript world. However, this is still highly experimental concerning the bloated file size, and also the bug/behavior that the ToDo Vue component's properties not being reactive which is critical for virtual DOM UI library.
 
 You can see the code from [edwardkenfox/vue-emscripten-todo](https://github.com/edwardkenfox/vue-emscripten-todo/).
 
