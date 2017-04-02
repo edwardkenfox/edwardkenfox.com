@@ -14,6 +14,8 @@ RUN apt-get update && \
     cmake \
     libssl-dev \
     libyaml-dev \
+    bison \
+    ruby-full \
     --no-install-recommends && \
     rm -rf /var/lib/apt/lists/*
 
@@ -35,11 +37,13 @@ WORKDIR /h2o
 RUN git submodule update --init --recursive && \
     cmake -DWITH_MRUBY=on . && \
     make h2o && \
+    make install && \
     chmod 777 /h2o && \
     mkdir /app
 COPY h2o.conf /h2o/h2o.conf
 COPY STAR_edwardkenfox_com.crt /h2o/STAR_edwardkenfox_com.crt
 COPY edwardkenfoxcom.key /h2o/edwardkenfoxcom.key
+COPY h2o-mruby-handler.rb /h2o/h2o-mruby-handler.rb
 
 #
 # build static files with hugo
