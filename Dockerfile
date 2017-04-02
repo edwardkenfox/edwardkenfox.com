@@ -33,7 +33,7 @@ RUN cd /tmp/ && \
 RUN git clone -q https://github.com/h2o/h2o.git --depth 1
 WORKDIR /h2o
 RUN git submodule update --init --recursive && \
-    cmake . && \
+    cmake -DWITH_MRUBY=on . && \
     make h2o && \
     chmod 777 /h2o && \
     mkdir /app
