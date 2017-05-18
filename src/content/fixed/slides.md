@@ -4,6 +4,7 @@ date = "2017-04-08T11:26:13+09:00"
 
 +++
 
+- 2017/05/18: <a href="https://speakerdeck.com/edwardkenfox/konhonentozhi-xiang-shi-dai-falsejseratoratukinku" target="_blank">コンポーネント指向時代のJSエラートラッキング</a>
 - 2017/04/28: <a href="https://speakerdeck.com/edwardkenfox/jserfalsetamefalse-burauzakodorideingu-tesutobian" target="_blank">JSerのための ブラウザコードリーディング （テスト編）</a>
 - 2017/02/07: <a href="https://speakerdeck.com/edwardkenfox/hazimetefalseconsole-dot-log" target="_blank">はじめてのconsole.log</a>
 - 2016/10/13: <a href="https://speakerdeck.com/edwardkenfox/viewmodelhadezainpatanfalsemeng-wojian-ruka" target="_blank">ViewModelはデザインパターンの夢を見るか</a>
