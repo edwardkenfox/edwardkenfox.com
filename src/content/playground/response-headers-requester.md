@@ -1,10 +1,12 @@
 +++
 date = "2017-07-09T11:23:09+09:00"
-title = "response headers requester"
+title = "Response Headers Requester"
+url = "/playground/response-headers-requester"
+slug = "response-headers-requester"
 
 +++
 
-Select the desired status code and fill out key/value pairs of the respose headers you wish to have. Click enter and you'll get a new page with the desired status code & response headers.
+Select the desired status code and fill out key/value pairs of the respose headers you wish to have. Click the "Get response" button and you'll get a new page with the desired status code and the specified response headers.
 
 <style>
 .input-container {
