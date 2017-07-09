@@ -44,6 +44,7 @@ COPY h2o.conf /h2o/h2o.conf
 COPY STAR_edwardkenfox_com.crt /h2o/STAR_edwardkenfox_com.crt
 COPY edwardkenfoxcom.key /h2o/edwardkenfoxcom.key
 COPY h2o-mruby-handler.rb /h2o/h2o-mruby-handler.rb
+COPY response-headers-requester.rb /h2o/response-headers-requester.rb
 
 #
 # build static files with hugo
