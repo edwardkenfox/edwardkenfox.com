@@ -35,8 +35,7 @@ new Vue({
 
       const qs = this.headerInputs.map((input, index) => {
         if (!input.key || !input.value) return null
-        qs = qs.concat(`${input.key}=${input.value}`)
-        return qs
+        return `${input.key}=${input.value}`
       }).join('&')
 
       return `${base}&${qs}`
