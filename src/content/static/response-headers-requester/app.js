@@ -1,3 +1,5 @@
+Vue.config.productionTip = false
+
 new Vue({
   data() {
     return {
@@ -29,13 +31,15 @@ new Vue({
   `,
   computed: {
     headerQueryString() {
-      let qs = `status=${this.statusCode}&`
+      const base = `status=${this.statusCode}`
 
-      return this.headerInputs.map((input, index) => {
+      const qs = this.headerInputs.map((input, index) => {
         if (!input.key || !input.value) return null
         qs = qs.concat(`${input.key}=${input.value}`)
         return qs
       }).join('&')
+
+      return `${base}&${qs}`
     },
     statusCodeOptions() {
       return [
