@@ -15,6 +15,9 @@ hosts:
       /playground/h2o-mruby-handler/:
         mruby.handler-file: ./h2o-mruby-handler.rb
         file.dir: ./src/public/playground/h2o-mruby-handler/
+      /playground/response-headers-requester/:
+        mruby.handler-file: ./response-headers-requester.rb
+        file.dir: ./src/public/playground/response-headers-requester/
 access-log: ./access-log
 error-log: ./error-log
 http2-reprioritize-blocking-assets: ON
