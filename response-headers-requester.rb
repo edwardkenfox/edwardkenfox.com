@@ -53,7 +53,7 @@ STATUS_CODES = {
 
 Proc.new do |env|
   queries = env["QUERY_STRING"]
-  headers = queries.split("&").map { |q| q.split("=") }.select { |q| q.size > 1 }.to_h
+  headers = queries.split("&").map { |q| q.split("=", 2) }.select { |q| q.size > 1 }.to_h
   status = Integer(headers.delete("status") || 399)
   body = "#{status} #{STATUS_CODES[status]}"
   [status, headers, [body]]
