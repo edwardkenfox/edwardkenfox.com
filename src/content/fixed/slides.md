@@ -4,6 +4,7 @@ date = "2017-04-08T11:26:13+09:00"
 
 +++
 
+- 2018/05/19: <a href="https://speakerdeck.com/edwardkenfox/post-evolution-state-of-the-web" target="_blank">Post-Evolution state of the web</a>
 - 2018/03/30: <a href="https://speakerdeck.com/edwardkenfox/hao-kinamin-zu-le-qi-besuto3" target="_blank">好きな民族楽器ベスト3</a>
 - 2018/02/23: <a href="https://speakerdeck.com/edwardkenfox/korerakafalseuebufalsehua-wosiyou-aruiha-serviceworkertopwadebian-waruhurontoendotomobairukai-fa-nituite" target="_blank">これらかのウェブの話をしよう – あるいは、ServiceWorkerとPWAで変わるフロントエンドとモバイル開発について</a>
 - 2017/12/14: <a href="https://speakerdeck.com/edwardkenfox/scheme-on-the-browser" target="_blank">Scheme On The Browser</a>
