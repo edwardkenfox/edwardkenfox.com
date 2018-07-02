@@ -1,7 +1,7 @@
 +++
 date = "2017-02-19T14:56:20+09:00"
 title = "About"
-url = "about"
+url = "/about"
 
 +++
 

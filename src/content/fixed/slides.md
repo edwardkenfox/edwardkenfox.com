@@ -1,7 +1,7 @@
 +++
 title = "slides"
 date = "2017-04-08T11:26:13+09:00"
-url = "slides"
+url = "/slides"
 
 +++
 
