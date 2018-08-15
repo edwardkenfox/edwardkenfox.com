@@ -60,10 +60,7 @@
 <![endif]-->
 
 <!-- Repro -->
-<script src="https://s3-ap-northeast-1.amazonaws.com/repro-web-sdk-test/repro-sdk.js"></script>
 <script>
-window.repro.init({
-    token: '92ba1e02-2f3d-4a7c-80cf-4aa894a2b7d1',
-    api_host: 'https://web-sdk-file-uploader-test.herokuapp.com/',
-})
+!function(e,t){var o=e.createElement(t),r=e.getElementsByTagName(t)[0],b={c:null,d:null,init(e){this.c=e},setUserId(f){this.d=f}};o.src="https://cdn.repro.io/web/v0/repro-sdk.min.js",window.reproio=b,o.onload=function(){if(b.d){reproio.setUserId(b.d)};if(b.c){reproio.init(b.c)}};r.parentNode.insertBefore(o,r)}(document,"script");
+reproio.init({token:"662e6d01-88af-4465-8d0c-f142bb7605ed"})
 </script>
