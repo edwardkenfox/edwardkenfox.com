@@ -9,7 +9,7 @@ url = "/slides"
 - 2018/06/19: <a href="https://speakerdeck.com/edwardkenfox/what-is-window-window" target="_blank">window.windowとは何か</a>
 - 2018/05/19: <a href="https://speakerdeck.com/edwardkenfox/post-evolution-state-of-the-web" target="_blank">Post-Evolution state of the web</a>
 - 2018/03/30: <a href="https://speakerdeck.com/edwardkenfox/hao-kinamin-zu-le-qi-besuto3" target="_blank">好きな民族楽器ベスト3</a>
-- 2018/02/23: <a href="https://speakerdeck.com/edwardkenfox/korerakafalseuebufalsehua-wosiyou-aruiha-serviceworkertopwadebian-waruhurontoendotomobairukai-fa-nituite" target="_blank">これらかのウェブの話をしよう – あるいは、ServiceWorkerとPWAで変わるフロントエンドとモバイル開発について</a>
+- 2018/02/23: <a href="https://speakerdeck.com/edwardkenfox/korekarafalseuebufalsehua-wosiyou-aruiha-serviceworkertopwadebian-waruhurontoendotomobairukai-fa-nituite" target="_blank">これらかのウェブの話をしよう – あるいは、ServiceWorkerとPWAで変わるフロントエンドとモバイル開発について</a>
 - 2017/12/14: <a href="https://speakerdeck.com/edwardkenfox/scheme-on-the-browser" target="_blank">Scheme On The Browser</a>
 - 2017/05/18: <a href="https://speakerdeck.com/edwardkenfox/konhonentozhi-xiang-shi-dai-falsejseratoratukinku" target="_blank">コンポーネント指向時代のJSエラートラッキング</a>
 - 2017/04/28: <a href="https://speakerdeck.com/edwardkenfox/jserfalsetamefalse-burauzakodorideingu-tesutobian" target="_blank">JSerのための ブラウザコードリーディング （テスト編）</a>
