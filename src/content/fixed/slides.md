@@ -5,6 +5,7 @@ url = "/slides"
 
 +++
 
+- 2018/08/21: <a href="https://speakerdeck.com/edwardkenfox/beacon-api-the-basics" target="_blank">Beacon API ことはじめ 〜そしてkeepalive fetchへ〜</a>
 - 2018/06/19: <a href="https://speakerdeck.com/edwardkenfox/what-is-window-window" target="_blank">window.windowとは何か</a>
 - 2018/05/19: <a href="https://speakerdeck.com/edwardkenfox/post-evolution-state-of-the-web" target="_blank">Post-Evolution state of the web</a>
 - 2018/03/30: <a href="https://speakerdeck.com/edwardkenfox/hao-kinamin-zu-le-qi-besuto3" target="_blank">好きな民族楽器ベスト3</a>
