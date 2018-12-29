@@ -5,6 +5,7 @@ url = "/slides"
 
 +++
 
+- 2018/12/20: <a href="https://speakerdeck.com/edwardkenfox/me-and-prototype-down-by-the-json" target="_blank">僕とprototypeとJSONで / Me and prototype down by the JSON</a>
 - 2018/12/15: <a href="https://speakerdeck.com/edwardkenfox/fallacies-of-client-side-programming" target="_blank">クライアントサイド開発の落とし穴 / Fallacies of Client Side Programming</a>
 - 2018/08/21: <a href="https://speakerdeck.com/edwardkenfox/beacon-api-the-basics" target="_blank">Beacon API ことはじめ 〜そしてkeepalive fetchへ〜</a>
 - 2018/06/19: <a href="https://speakerdeck.com/edwardkenfox/what-is-window-window" target="_blank">window.windowとは何か</a>
