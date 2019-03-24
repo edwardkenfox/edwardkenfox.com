@@ -1,27 +1,18 @@
-FROM debian:jessie
+FROM lkwg82/h2o-http2-server
 
 #
 # install necessary packages
 #
-RUN apt-get update && \
-    apt-get install -y \
-    vim \
+RUN apk update && apk upgrade
+RUN apk add \
     wget \
-    ca-certificates \
     git \
     openssl \
-    build-essential \
-    cmake \
-    libssl-dev \
-    libyaml-dev \
-    bison \
-    ruby-full \
-    --no-install-recommends && \
-    rm -rf /var/lib/apt/lists/*
+    vim
 
-#
-# setup hugo
-#
+# #
+# # setup hugo
+# #
 ENV HUGO_VERSION=0.18.1
 RUN cd /tmp/ && \
     wget https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
@@ -29,32 +20,25 @@ RUN cd /tmp/ && \
     rm -r hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
     mv hugo*/hugo* /usr/bin/hugo
 
-#
-# setup h2o
-#
-RUN git clone -q https://github.com/h2o/h2o.git --depth 1
-WORKDIR /h2o
-RUN git submodule update --init --recursive && \
-    cmake -DWITH_MRUBY=on . && \
-    make h2o && \
-    make install && \
-    chmod 777 /h2o && \
-    mkdir /app
-COPY h2o.conf /h2o/h2o.conf
-COPY STAR_edwardkenfox_com.crt /h2o/STAR_edwardkenfox_com.crt
-COPY edwardkenfoxcom.key /h2o/edwardkenfoxcom.key
-COPY h2o-mruby-handler.rb /h2o/h2o-mruby-handler.rb
-COPY response-headers-requester.rb /h2o/response-headers-requester.rb
+# #
+# # setup h2o
+# #
+WORKDIR /etc/h2o
+COPY h2o.conf /etc/h2o/h2o.conf
+COPY STAR_edwardkenfox_com.crt /etc/h2o/STAR_edwardkenfox_com.crt
+COPY edwardkenfoxcom.key /etc/h2o/edwardkenfoxcom.key
+COPY h2o-mruby-handler.rb /etc/h2o/h2o-mruby-handler.rb
+COPY response-headers-requester.rb /etc/h2o/response-headers-requester.rb
 
-#
-# build static files with hugo
-#
+# #
+# # build static files with hugo
+# #
 COPY /src /app/
 RUN cd /app && \
     hugo
 
-#
-# run h2o
-#
+# #
+# # run h2o
+# #
 EXPOSE 80 443
-CMD ./h2o -c /h2o/h2o.conf
+CMD h2o -c /etc/h2o/h2o.conf
