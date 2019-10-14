@@ -4,7 +4,7 @@ title = "web-dom sample"
 
 +++
 
-<script src="http://unpkg.com/web-dom@latest/web-dom.min.js"></script>
+<script src="https://unpkg.com/web-dom@latest/web-dom.min.js"></script>
 
 Sample of using [web-dom](https://github.com/web-dom/web-dom). The below h1 tag is generated and inserted from the wasm module served as a sub-resource of this html. You can see that the `web-dom` Custom Element loads the wasm module and then inserts the h1 tag within itself.
 
