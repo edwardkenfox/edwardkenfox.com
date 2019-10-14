@@ -34,7 +34,7 @@ hugo new blog/your-new-post.md
 ### Run
 
 ```
-docker run -p 80:80 -p 443:443 edwardkenfox.com
+docker run -d -p 80:80 -p 443:443 edwardkenfox.com
 ```
 
 ## TODO
