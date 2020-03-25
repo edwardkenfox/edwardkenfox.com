@@ -5,6 +5,9 @@ url = "/slides"
 
 +++
 
+- 2019/12/18: <a href="https://speakerdeck.com/edwardkenfox/hackathon-for-good-can-jia-lu" target="_blank">AWS re:Invent 2019 / Hackathon for Good 参加録</a>
+- 2019/11/22: <a href="https://speakerdeck.com/edwardkenfox/repro-basketball-club" target="_blank">Repro basketball club</a>
+- 2019/10/29: <a href="https://speakerdeck.com/edwardkenfox/introduction-to-ux-optimizer" target="_blank">Introduction to UX Optimizer</a>
 - 2018/12/20: <a href="https://speakerdeck.com/edwardkenfox/me-and-prototype-down-by-the-json" target="_blank">僕とprototypeとJSONで / Me and prototype down by the JSON</a>
 - 2018/12/15: <a href="https://speakerdeck.com/edwardkenfox/fallacies-of-client-side-programming" target="_blank">クライアントサイド開発の落とし穴 / Fallacies of Client Side Programming</a>
 - 2018/08/21: <a href="https://speakerdeck.com/edwardkenfox/beacon-api-the-basics" target="_blank">Beacon API ことはじめ 〜そしてkeepalive fetchへ〜</a>
