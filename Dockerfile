@@ -3,6 +3,7 @@ FROM lkwg82/h2o-http2-server
 #
 # install necessary packages
 #
+USER root
 RUN apk update && apk upgrade
 RUN apk add \
     wget \
