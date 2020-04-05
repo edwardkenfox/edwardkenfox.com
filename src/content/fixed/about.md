@@ -15,9 +15,10 @@ Web Developer
 
 #### Tech stacks
 
-Ruby, Rails, JavaScript, Vue.js, C++
+Ruby, Rails, JavaScript/TypeScript, Vue.js, C++ & Rust beginner
 
 #### Passion
 
 - Advanced web technologies such as Web APIs, HTTP/2, QUIC, WebAssembly & etc.
 - Web security and performance
+- Scrum & Agile development
