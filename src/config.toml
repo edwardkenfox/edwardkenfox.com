@@ -17,3 +17,8 @@ disqusshortname = "edwadkenfox-com"
   github = "//github.com/edwardkenfox"
   twitter = "//twitter.com/edwardkenfox"
   highlightjs = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
