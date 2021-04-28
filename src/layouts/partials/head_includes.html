@@ -61,6 +61,6 @@
 
 <!-- Repro -->
 <script>
-!function(e,t){var o=e.createElement(t),r=e.getElementsByTagName(t)[0],b={c:null,d:null,init(e){this.c=e},setUserId(f){this.d=f}};o.src="https://cdn.repro.io/web/v0/repro-sdk.min.js",window.reproio=b,o.onload=function(){if(b.d){reproio.setUserId(b.d)};if(b.c){reproio.init(b.c)}};r.parentNode.insertBefore(o,r)}(document,"script");
-reproio.init({token:"662e6d01-88af-4465-8d0c-f142bb7605ed"})
+!function(o,e,n){var r=[];if(window.reproio)console.info("Repro Web SDK was loaded more than once");else{window.reproio=function(){r.push(arguments)};var i=o.createElement(e),t=o.getElementsByTagName(e)[0];i.src="./repro-sdk.min.js",i.async=!0,i.crossOrigin="",i.onload=function(){window.reproio("setSnippetVersion","2.1"),r.forEach(function(o){window.reproio.apply(window.reproio,o)})},t.parentNode.insertBefore(i,t)}}(document,"script");
+reproio("setup", "662e6d01-88af-4465-8d0c-f142bb7605ed");
 </script>
