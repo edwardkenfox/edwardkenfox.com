@@ -25,7 +25,7 @@ Web Developer
 
 #### Tech stacks
 
-Ruby, Rails, JavaScript/TypeScript, Vue.js, C++ & Rust beginner
+Ruby, Rails, JavaScript/TypeScript, Vue.js, MySQL, AWS, C++ & Rust beginner
 
 #### Passion
 
