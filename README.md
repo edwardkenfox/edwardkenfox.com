@@ -42,3 +42,14 @@ docker run -d -p 80:80 -p 443:443 edwardkenfox.com
 - [x] HTTPS
 - [x] HTTP/2
 - [ ] deploy to ECS
+
+## SSL cert update
+
+- get new ssl
+- download domain control valdation file
+- comment our h2o.conf to work only as http and add the domain control validation file to the designation location
+- build and deploy docker container to edwardkenfox.com host
+- proceed with DCL on SSL.com
+- download cert file and add to this repo
+- revert comments in h2o.conf
+- build and deploy docker container to edwardkenfox.com host
