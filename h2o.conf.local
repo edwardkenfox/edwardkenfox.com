@@ -4,20 +4,20 @@ hosts:
       port: 8080
     paths:
       /:
-        file.dir: ./src/public
+        file.dir: /app/public
       /playground/content-security-policy/:
-        file.dir: ./src/public/playground/content-security-policy/
+        file.dir: /app/public/playground/content-security-policy/
         header.add: "content-security-policy-report-only: default-src 'self' \
           https://edwardkenfox.com \
           https://*.edwardkenfox.com \
           https://www.google-analytics.com;
           report-uri https://edwardkenfox.report-uri.io/r/default/csp/reportOnly"
       /playground/h2o-mruby-handler/:
-        mruby.handler-file: ./h2o-mruby-handler.rb
-        file.dir: ./src/public/playground/h2o-mruby-handler/
+        mruby.handler-file: h2o-mruby-handler.rb
+        file.dir: /app/public/playground/h2o-mruby-handler/
       /playground/response-headers-requester/:
-        mruby.handler-file: ./response-headers-requester.rb
-        file.dir: ./src/public/playground/response-headers-requester/
+        mruby.handler-file: response-headers-requester.rb
+        file.dir: /app/public/playground/response-headers-requester/
 access-log: ./access-log
 error-log: ./error-log
 http2-reprioritize-blocking-assets: ON

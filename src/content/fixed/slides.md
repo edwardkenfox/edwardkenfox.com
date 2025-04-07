@@ -5,6 +5,7 @@ url = "/slides"
 
 +++
 
+- 2023/09/26: <a href="https://speakerdeck.com/edwardkenfox/prioritywozhi-surumonoha-rodeinguwozhi-su" target="_blank">Priorityを制するものはローディングを制す</a>
 - 2019/12/18: <a href="https://speakerdeck.com/edwardkenfox/hackathon-for-good-can-jia-lu" target="_blank">AWS re:Invent 2019 / Hackathon for Good 参加録</a>
 - 2019/11/22: <a href="https://speakerdeck.com/edwardkenfox/repro-basketball-club" target="_blank">Repro basketball club</a>
 - 2019/10/29: <a href="https://speakerdeck.com/edwardkenfox/introduction-to-ux-optimizer" target="_blank">Introduction to UX Optimizer</a>

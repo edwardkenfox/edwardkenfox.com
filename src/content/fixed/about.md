@@ -21,16 +21,34 @@ Edward Fox
 
 #### Job
 
-Web Developer
+- Creator and Product Manager of [Repro Booster](https://repro.io/products/booster/)
+- Software Engineer
+- [FOX BAGELS](https://www.instagram.com/foxbagels/)
 
-#### Tech stacks
+#### Skills
 
-Ruby, Rails, JavaScript/TypeScript, Vue.js, MySQL, AWS, C++ & Rust beginner
+Technical
+
+- Ruby, Rails, JavaScript/TypeScript, AWS
+- Web performance optimization
+- WordPress, Shopify
+- C++ & Rust beginner
+
+Soft skills
+
+- Product management
+- Scrum & agile development
 
 #### Passion
 
-- Advanced web technologies such as Web APIs, HTTP/2, QUIC, WebAssembly & etc.
+- Making the web a better place for everyone
 - Web security and performance
-- Scrum & Agile development
+- Camping & DIY
+- 🍺 & 🍷 & cooking
+
+#### Achivements/Certificates
+
 - AWS re:Invent 2019 – Hackathon for Good champion
-   - [re:Invent 2019 Nonprofit Hackathon for Good crowns winner to support mental and emotional well-being nonprofit](https://aws.amazon.com/blogs/publicsector/reinvent-2019-nonprofit-hackathon-for-good-crowns-winner-to-support-mental-and-emotional-well-being-nonprofit/)
+  - [re:Invent 2019 Nonprofit Hackathon for Good crowns winner to support mental and emotional well-being nonprofit](https://aws.amazon.com/blogs/publicsector/reinvent-2019-nonprofit-hackathon-for-good-crowns-winner-to-support-mental-and-emotional-well-being-nonprofit/)
+- ファイナンシャル・プランニング技能士 3級
+- 第二種電気工事士
