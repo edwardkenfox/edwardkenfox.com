@@ -53,3 +53,28 @@ docker run -d -p 80:80 -p 443:443 edwardkenfox.com
 - download cert file and add to this repo
 - revert comments in h2o.conf
 - build and deploy docker container to edwardkenfox.com host
+
+## Deployment
+
+Local
+
+```
+# ECR login
+docker build -t edwardekenfox.com/base .
+docker tag edwardekenfox.com/base:latest 572527407074.dkr.ecr.ap-northeast-1.amazonaws.com/edwardekenfox.com/base:latest
+docker push 572527407074.dkr.ecr.ap-northeast-1.amazonaws.com/edwardekenfox.com/base:latest
+```
+
+Login to EC2
+
+```
+ssh -i ~/.ssh/YOUR_KEY USER@edwardkenfox.com
+```
+
+Inside EC2
+
+```
+# ECR login
+docker pull 572527407074.dkr.ecr.ap-northeast-1.amazonaws.com/edwardekenfox.com/base:latest --platform linux/arm64
+docker run -d -p 443:443 IMAGE_ID
+```
