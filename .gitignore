@@ -3,3 +3,4 @@
 *.key
 access-log
 error-log
+.claude/
