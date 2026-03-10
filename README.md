@@ -76,5 +76,5 @@ Inside EC2
 ```
 # ECR login
 docker pull 572527407074.dkr.ecr.ap-northeast-1.amazonaws.com/edwardekenfox.com/base:latest --platform linux/arm64
-docker run -d -p 443:443 IMAGE_ID
+docker run -d -p 443:443 572527407074.dkr.ecr.ap-northeast-1.amazonaws.com/edwardekenfox.com/base:latest
 ```
