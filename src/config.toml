@@ -1,10 +1,12 @@
-builddrafts = false
 languageCode = "en-us"
 title = "edwardkenfox.com"
-baseurl = "https://edwardkenfox.com"
-theme="cocoa"
+baseURL = "https://edwardkenfox.com"
+theme = "cocoa"
 googleAnalytics = "UA-42113774-1"
-disqusshortname = "edwadkenfox-com"
+disqusShortname = "edwadkenfox-com"
+
+[build]
+  buildDrafts = false
 
 [permalinks]
   fixed = ":title/"
@@ -16,9 +18,13 @@ disqusshortname = "edwadkenfox-com"
   email = "edwardkenfox@gmail.com"
   github = "//github.com/edwardkenfox"
   twitter = "//twitter.com/edwardkenfox"
-  highlightjs = true
+  highlightjs = false
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+    noClasses = true

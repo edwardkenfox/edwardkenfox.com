@@ -1,0 +1,2 @@
+/playground/content-security-policy/*
+  content-security-policy-report-only: default-src 'self' https://edwardkenfox.com https://*.edwardkenfox.com https://www.google-analytics.com; report-uri https://edwardkenfox.report-uri.io/r/default/csp/reportOnly

@@ -4,7 +4,7 @@
         <div class="content">
             <div class="page-heading">Playground</div>
             <ul>
-                {{ range .Data.Pages.ByPublishDate }}
+                {{ range .Pages.ByDate }}
                 {{ partial "li-minimal.html" . }}
                 {{ end }}
             </ul>

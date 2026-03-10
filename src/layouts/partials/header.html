@@ -57,8 +57,8 @@
             <a href="mailto:{{ .Site.Params.email }}"><img class="icon" src="/img/email.svg" alt="email" /></a>
         {{ end }}
 
-        {{ if .Site.RSSLink }}
-            <a href="{{ .Site.RSSLink }}"><img class="icon" src="/img/rss.svg" alt="rss" /></a>
+        {{ with .OutputFormats.Get "RSS" }}
+            <a href="{{ .RelPermalink }}"><img class="icon" src="/img/rss.svg" alt="rss" /></a>
         {{ end }}
         </div>
     </div>
